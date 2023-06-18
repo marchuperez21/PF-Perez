@@ -1,4 +1,18 @@
 @charset "UTF-8";
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Laila", sans-serif;
+  text-decoration: none;
+}
+
+.icon-link {
+  font-size: 1.5rem;
+  margin: 0rem 0.625rem;
+  color: #333;
+}
+
 .text-color {
   color: rgb(135, 82, 82);
 }
@@ -13,14 +27,6 @@
 
 .text-carousel-h3 {
   color: rgba(87, 151, 87, 0.587);
-}
-
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  font-family: "Laila", sans-serif;
-  text-decoration: none;
 }
 
 .tamaño-logo-navbar {
@@ -97,12 +103,6 @@
   background-color: #f8f9fa;
   padding: 1.25rem 0rem;
   text-align: center;
-}
-
-.icon-link {
-  font-size: 1.5rem;
-  margin: 0rem 0.625rem;
-  color: #333;
 }
 
 .contact-info {
