@@ -8,3 +8,9 @@ $color-white-footer: #f8f9fa;
 
 //font
 $font-family: "Laila", sans-serif;
+
+//mixin
+@mixin sizes($width, $height) {
+  width: $width;
+  height: $height;
+}
