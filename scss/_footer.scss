@@ -13,3 +13,8 @@
 .contact-info {
   margin-top: 1rem;
 }
+
+.a-traslate:hover {
+  transform: translate(0rem, 0.3rem);
+  transition: 1s;
+}

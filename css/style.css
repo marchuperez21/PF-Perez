@@ -64,6 +64,14 @@
   margin-top: 6.7rem;
 }
 
+.card {
+  transition: transform 0.5s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.09);
+}
+
 .margin-top-section {
   margin-top: 6.65rem;
 }
@@ -93,6 +101,11 @@
   border-color: rgb(230, 224, 224);
 }
 
+.div-traslate:hover {
+  transform: translate(0rem, 1rem);
+  transition: 1s;
+}
+
 .footer {
   background-color: #f8f9fa;
   padding: 1.25rem 0rem;
@@ -107,6 +120,11 @@
 
 .contact-info {
   margin-top: 1rem;
+}
+
+.a-traslate:hover {
+  transform: translate(0rem, 0.3rem);
+  transition: 1s;
 }
 
 /*# sourceMappingURL=style.css.map */
