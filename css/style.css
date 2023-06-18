@@ -1,15 +1,9 @@
-@charset "UTF-8";
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
   font-family: "Laila", sans-serif;
   text-decoration: none;
-}
-
-.tamaño-logo-navbar {
-  width: 9rem;
-  height: 5rem;
 }
 
 .imagen-main {
