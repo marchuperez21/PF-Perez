@@ -1,53 +1,4 @@
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  font-family: "Laila", sans-serif;
-  text-decoration: none;
-}
-
-.imagen-main {
-  height: auto;
-  width: 100%;
-}
-
-.texto-inicio-img {
-  background-color: rgb(230, 224, 224);
-  padding: 0.5rem;
-  border-radius: 2rem;
-  width: 32rem;
-  height: 7.5rem;
-  margin-left: 1rem;
-}
-
-.footer {
-  background-color: #f8f9fa;
-  padding: 1.25rem 0rem;
-  text-align: center;
-}
-
-.icon-link {
-  font-size: 1.5rem;
-  margin: 0rem 0.625rem;
-  color: #333;
-}
-
-.contact-info {
-  margin-top: 1rem;
-}
-
-.card-img-h {
-  height: 11.875rem;
-}
-
-.margin-top-section {
-  margin-top: 6.65rem;
-}
-
-.medidas-mapa {
-  width: 100%;
-}
-
+@charset "UTF-8";
 .text-color {
   color: rgb(135, 82, 82);
 }
@@ -60,6 +11,27 @@
   background-color: rgb(230, 224, 224);
 }
 
+.text-carousel-h3 {
+  color: rgba(87, 151, 87, 0.587);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Laila", sans-serif;
+  text-decoration: none;
+}
+
+.tamaño-logo-navbar {
+  width: 9rem;
+  height: 5rem;
+}
+
+.card-img-h {
+  height: 11.875rem;
+}
+
 .margin-main-tf {
   margin-top: 10rem;
 }
@@ -68,18 +40,41 @@
   height: 45rem;
 }
 
-.text-carousel-h3 {
-  color: rgba(87, 151, 87, 0.587);
-}
-
 .text-carousel-h6 {
   color: rgb(95, 93, 93);
   margin-bottom: 25rem;
 }
 
-.size-imgs-inicio {
-  height: 18rem;
+.margin-tit-nosotros {
+  margin-top: 1rem;
+}
+
+.imagen-nosotros {
+  width: auto;
+  height: auto;
+}
+
+.margin-nosotros {
+  margin-top: 4rem;
+}
+
+.margin-padding-carousel {
+  padding-left: 0rem !important;
+  padding-right: 0rem !important;
+  margin-top: 6.7rem;
+}
+
+.margin-top-section {
+  margin-top: 6.65rem;
+}
+
+.medidas-mapa {
   width: 100%;
+}
+
+.size-imgs-inicio {
+  width: 100%;
+  height: 18rem;
   border-radius: 8rem 3rem 8rem 3rem;
 }
 
@@ -98,23 +93,20 @@
   border-color: rgb(230, 224, 224);
 }
 
-.margin-tit-nosotros {
+.footer {
+  background-color: #f8f9fa;
+  padding: 1.25rem 0rem;
+  text-align: center;
+}
+
+.icon-link {
+  font-size: 1.5rem;
+  margin: 0rem 0.625rem;
+  color: #333;
+}
+
+.contact-info {
   margin-top: 1rem;
-}
-
-.imagen-nosotros {
-  height: auto;
-  width: auto;
-}
-
-.margin-nosotros {
-  margin-top: 4rem;
-}
-
-.margin-padding-carousel {
-  padding-left: 0rem !important;
-  padding-right: 0rem !important;
-  margin-top: 6.7rem;
 }
 
 /*# sourceMappingURL=style.css.map */
