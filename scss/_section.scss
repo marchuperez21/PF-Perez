@@ -6,24 +6,21 @@
   width: 100%;
 }
 
-.size-imgs-inicio {
-  @include sizes(100%, 18rem);
-  border-radius: 8rem 3rem 8rem 3rem;
-}
-
-.card-title {
-  padding-top: 10rem;
-  font-weight: 400;
-}
-
 .margin-entre-footer {
   margin-bottom: 8rem;
   margin-top: 8rem;
-}
-
-.card-inicio {
-  border-radius: 8.2rem 3.2rem 8.2rem 3.2rem;
-  border-color: $color-rosa-light;
+  .card-inicio {
+    border-radius: 8.2rem 3.2rem 8.2rem 3.2rem;
+    border-color: $color-rosa-light;
+    .size-imgs-inicio {
+      @include sizes(100%, 18rem);
+      border-radius: 8rem 3rem 8rem 3rem;
+    }
+    .card-title {
+      padding-top: 10rem;
+      font-weight: 400;
+    }
+  }
 }
 
 .div-traslate:hover {
